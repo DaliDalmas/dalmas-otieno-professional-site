@@ -1,13 +1,16 @@
 import './App.css';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
+import HomeAboutMe from './components/HomeAboutMe';
+import HomeProject from './components/HomeProject';
 
 function App() {
   return (
     <div className="App">
-      <div className='hero'>
-        <h1>CRAFTING EFFICIENT SYSTEMS THROUGH PRECISE AND INTELLIGENT ENGINEERING</h1>
-        <div> EXPLORE WORKS </div> 
-      </div>
-
+      <Nav />
+      <Hero />
+      <HomeAboutMe />
+      <HomeProject />
     </div>
   );
 }
