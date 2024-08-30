@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="1024" viewBox="0 0 1280 1024" xml:space="preserve">
+<desc>Created with Fabric.js 5.3.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 640 512)" id="background-logo"  >
+<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(34,40,49); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  x="-640" y="-512" rx="0" ry="0" width="1280" height="1024" />
+</g>
+<g transform="matrix(1.9211538461538462 0 0 1.9211538461538462 640 498.7037326538461)" id="tagline-f8eb2820-1573-4945-8dcc-11039ecdf689-logo"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="tagline-f8eb2820-1573-4945-8dcc-11039ecdf689-logo-path-0"  >
+<path style="stroke: rgb(0,173,181); stroke-width: 9.926443944144257; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(5,28,62); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-63.69, 67.55)" d="M 7.72 -44.39 L 7.72 0 L 78.55 0 C 101.9 0 119.66 -17.76 119.66 -41.11 L 119.66 -93.99 C 119.66 -117.34 101.9 -135.1 78.55 -135.1 L 7.72 -135.1 L 7.72 -54.04 L 34.74 -54.04 L 34.74 -108.08 L 78.55 -108.08 C 88.78 -108.08 92.64 -104.22 92.64 -93.99 L 92.64 -41.11 C 92.64 -30.88 88.78 -27.02 78.55 -27.02 L 34.74 -27.02 L 34.74 -44.39 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+<g transform="matrix(1.9211538461538462 0 0 1.9211538461538462 640 507.65976765384613)" id="text-logo"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="text-logo-path-0"  >
+<path style="stroke: rgb(5,28,62); stroke-width: 34; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-132.3, 22.05)" d="M 2.52 -14.49 L 2.52 0 L 25.64 0 C 33.26 0 39.06 -5.8 39.06 -13.42 L 39.06 -30.68 C 39.06 -38.3 33.26 -44.1 25.64 -44.1 L 2.52 -44.1 L 2.52 -17.64 L 11.34 -17.64 L 11.34 -35.28 L 25.64 -35.28 C 28.98 -35.28 30.24 -34.02 30.24 -30.68 L 30.24 -13.42 C 30.24 -10.08 28.98 -8.82 25.64 -8.82 L 11.34 -8.82 L 11.34 -14.49 Z M 80.64 0 L 80.64 -30.68 C 80.64 -38.3 74.84 -44.1 67.22 -44.1 L 57.52 -44.1 C 49.9 -44.1 44.1 -38.3 44.1 -30.68 L 44.1 0 L 52.92 0 L 52.92 -30.68 C 52.92 -34.02 54.18 -35.28 57.52 -35.28 L 67.22 -35.28 C 70.56 -35.28 71.82 -34.02 71.82 -30.68 L 71.82 -26.46 L 56.07 -26.46 L 56.07 -17.64 L 71.82 -17.64 L 71.82 0 Z M 122.22 -8.82 L 99.1 -8.82 C 95.76 -8.82 94.5 -10.08 94.5 -13.42 L 94.5 -44.1 L 85.68 -44.1 L 85.68 -13.42 C 85.68 -5.8 91.48 0 99.1 0 L 122.22 0 Z M 136.08 0 L 136.08 -14.49 L 127.26 -14.49 L 127.26 0 Z M 127.26 -17.64 L 136.08 -17.64 L 136.08 -30.68 C 136.08 -34.02 137.34 -35.28 140.68 -35.28 L 144.08 -35.28 C 147.42 -35.28 148.68 -34.02 148.68 -30.68 L 148.68 0 L 157.5 0 L 157.5 -30.68 C 157.5 -34.02 158.76 -35.28 162.1 -35.28 L 165.5 -35.28 C 168.84 -35.28 170.1 -34.02 170.1 -30.68 L 170.1 0 L 178.92 0 L 178.92 -30.68 C 178.92 -38.3 173.12 -44.1 165.5 -44.1 L 162.1 -44.1 C 158.57 -44.1 155.42 -42.84 153.09 -40.76 C 150.76 -42.84 147.61 -44.1 144.08 -44.1 L 140.68 -44.1 C 133.06 -44.1 127.26 -38.3 127.26 -30.68 Z M 220.5 0 L 220.5 -30.68 C 220.5 -38.3 214.7 -44.1 207.08 -44.1 L 197.38 -44.1 C 189.76 -44.1 183.96 -38.3 183.96 -30.68 L 183.96 0 L 192.78 0 L 192.78 -30.68 C 192.78 -34.02 194.04 -35.28 197.38 -35.28 L 207.08 -35.28 C 210.42 -35.28 211.68 -34.02 211.68 -30.68 L 211.68 -26.46 L 195.93 -26.46 L 195.93 -17.64 L 211.68 -17.64 L 211.68 0 Z M 257.67 -44.1 L 238.96 -44.1 C 231.34 -44.1 225.54 -38.3 225.54 -30.68 C 225.54 -23.18 231.4 -17.64 238.96 -17.64 L 248.66 -17.64 C 252.06 -17.64 253.26 -16.51 253.26 -13.42 C 253.26 -10.08 252 -8.82 248.66 -8.82 L 227.43 -8.82 L 227.43 0 L 248.66 0 C 256.28 0 262.08 -5.8 262.08 -13.42 C 262.08 -20.92 256.22 -26.46 248.66 -26.46 L 238.96 -26.46 C 235.56 -26.46 234.36 -27.59 234.36 -30.68 C 234.36 -34.02 235.62 -35.28 238.96 -35.28 L 257.67 -35.28 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

@@ -1,8 +1,12 @@
+
 function Hero(){
     return (
         <div className='hero'>
-        <h1>CRAFTING EFFICIENT SYSTEMS THROUGH PRECISE AND INTELLIGENT ENGINEERING</h1>
-        <div> EXPLORE WORKS </div> 
+        <div className='hero-text'>
+          <h1>Crafting Efficient Systems Through Precise</h1>
+          <h1>And Intelligent Engineering</h1>
+        </div>
+        <div className='call-to-action'> EXPLORE WORKS </div> 
       </div>
     )
 }
