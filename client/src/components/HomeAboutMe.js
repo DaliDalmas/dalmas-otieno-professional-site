@@ -7,7 +7,7 @@ function HomeAboutMe(){
                     <h2 className='know-about-me-more'>Let's get to know</h2>
                     <h2 className='know-about-me-more'>about me closer</h2>
                 </div>
-                <div className="personal-statement">Hi! I'm Dalmas, a data engineer and data scientist driven by a passion for
+                <div className="personal-statement">Hi, I'm Dalmas, a data engineer and data scientist driven by a passion for
                     transforming businesses through effective data delivery. 
                     With a strong foundation in data architectural design, 
                     I excel at crafting robust solutions that empower organizations
