@@ -1,3 +1,4 @@
+
 @media only screen and (min-width: 920px) {
     .nav{
     display: flex;
@@ -196,6 +197,7 @@
     .testimonial-writer{
         font-family:  "syne", sans-serif;
         font-weight: bolder;
+        padding-bottom: 70px;
     }
 
     .home-contacts{
@@ -327,8 +329,8 @@
         margin-left: 30px;
     }
     .faceshot{
-        height: 200px;
-        width: 100px;
+        height: 350px;
+        width: 200px;
         object-fit: cover;
         object-position: 50% 5%;
         border-radius: 20px;
@@ -444,6 +446,7 @@
     .testimonial-writer{
         font-family:  "syne", sans-serif;
         font-weight: bolder;
+        padding-bottom: 70px;
     }
 
     .home-contacts{
@@ -699,6 +702,7 @@
     .testimonial-writer{
         font-family:  "syne", sans-serif;
         font-weight: bolder;
+        padding-bottom: 70px;
     }
 
     .home-contacts{
