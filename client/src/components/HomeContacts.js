@@ -15,7 +15,8 @@ export default function HomeContacts(){
                     <p>socials</p>
                 </div>
             </div>
-            <div></div>
+            <hr className="horizontal-rule"/>
+            <div>@2024. dalicodes. All rights reserved</div>
         </div>
     )
 }

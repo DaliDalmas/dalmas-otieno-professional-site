@@ -1,225 +1,745 @@
-
-.nav{
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  min-width: 830px;
-  background: #1f252e;
-  height: 60px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  z-index: 1000;
-}
-
-.nav-bar{
+@media only screen and (min-width: 920px) {
+    .nav{
     display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-right: 30px;
-}
-
-.nav-bar-item{
-    padding: 5px;
-}
-
-.nav-bar-item:hover{
-    background: #00acb59b;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.hero{
-    min-height: 400px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    gap: 50px;
-}
-
-.hero-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family:  "syne", sans-serif;
-    gap: 10px;
-}
-
-.call-to-action{
-    width: fit-content;
-    background:#00ADB5;
-    padding: 10px 15px;
-    border-radius: 15px;
-    font-family:  "syne", sans-serif;
-    cursor: pointer;
-    font-weight:600;
-}
-.call-to-action-2{
-    width: fit-content;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    min-width: 830px;
     background: #1f252e;
-    outline:1px solid #00ADB5;
-    padding: 10px 15px;
-    border-radius: 15px;
-    font-family:  "syne", sans-serif;
-    cursor: pointer;
-    font-weight:600;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1000;
+    }
+
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-right: 30px;
+    }
+    .nav-logo{
+        margin-bottom: 5px;
+        height: 50px;
+        width: 100px;
+    }
+    .nav-bar-item{
+        padding: 5px;
+        transition: transform .2s;
+    }
+
+    .nav-bar-item:hover{
+        border-bottom:1px solid #00acb5fc;
+        cursor: pointer;
+    }
+
+    .hero{
+        min-height: 400px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 50px;
+    }
+
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family:  "syne", sans-serif;
+        gap: 10px;
+    }
+
+    .call-to-action{
+        width: fit-content;
+        background:#00ADB5;
+        padding: 10px 15px;
+        border-radius: 15px;
+        font-family:  "syne", sans-serif;
+        cursor: pointer;
+        font-weight:600;
+    }
+    .call-to-action-2{
+        width: fit-content;
+        background: #1f252e;
+        outline:1px solid #00ADB5;
+        padding: 10px 15px;
+        border-radius: 15px;
+        font-family:  "syne", sans-serif;
+        cursor: pointer;
+        font-weight:600;
+    }
+
+    .home-about-me{
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .faceshot{
+        height: 400px;
+        width: 300px;
+        object-fit: cover;
+        object-position: 50% 5%;
+        border-radius: 20px;
+    }
+
+    .know-about-me-more{
+        font-family:  "syne", sans-serif;
+    }
+
+    .get-to-know-me{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 50px;
+    }
+
+    .personal-statement{
+        line-height: 25px;
+        text-align: justify;
+        width: 85%;
+    }
+
+    .home-projects{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .home-project-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .home-projects-title{
+        font-family:  "syne", sans-serif;
+        text-align: center;
+    }
+
+    .projects-bucker{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .single-project{
+        width: 40%;
+        outline: 0.5px solid #00acb565;
+        padding: 10px;
+        border-radius: 15px;
+        transition: transform .2s;
+    }
+
+    .single-project:hover{
+        transform: scale(1.03);
+    }
+
+    .project-image{
+        border-radius: 20px;
+        width: 100%;
+        height: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .project-title{
+        font-weight: 600;
+        font-family:  "syne", sans-serif;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .project-stack{
+        font-family:  "syne", sans-serif;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .project-stack-title{
+        font-weight: bold;
+    }
+
+    .testimonial{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .testimonial-title{
+        font-family:  "syne", sans-serif;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-text{
+        width: 80%;
+        margin-bottom: 20px;
+        text-align: justify;
+        border-right: 7px solid #00ADB5;
+        padding-right: 15px;
+    }
+
+    .testimonial-writer{
+        font-family:  "syne", sans-serif;
+        font-weight: bolder;
+    }
+
+    .home-contacts{
+        background: #161d26;
+        width: 112%;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .get-in-touch-title{
+        font-family:  "syne", sans-serif;
+        color: #08e0ec;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .email{
+        text-align: center;
+        font-family:  "syne", sans-serif;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        text-decoration: underline;
+        margin-bottom: 30px;
+    }
+
+    .contact-items{
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .horizontal-rule{
+        text-align: center;
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        border: 0.1px solid #ffffff50;
+    }
 }
 
-.home-about-me{
+/* break point */
+
+@media only screen and (min-width: 700px) and (max-width: 920px) {
+    .nav{
     display: flex;
-    gap: 20px;
-    margin-top: 30px;
-}
-.faceshot{
-    height: 400px;
-    width: 300px;
-    object-fit: cover;
-    object-position: 50% 5%;
-    border-radius: 20px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    min-width: 670px;
+    background: #1f252e;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1000;
+    }
+
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-right: 30px;
+    }
+    .nav-logo{
+        margin-bottom: 5px;
+        height: 50px;
+        width: 100px;
+    }
+    .nav-bar-item{
+        padding: 5px;
+        transition: transform .2s;
+    }
+
+    .nav-bar-item:hover{
+        border-bottom:1px solid #00acb5fc;
+        cursor: pointer;
+    }
+
+    .hero{
+        min-height: 400px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 50px;
+        font-size: 11px;
+    }
+
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family:  "syne", sans-serif;
+        gap: 10px;
+    }
+
+    .call-to-action{
+        width: fit-content;
+        background:#00ADB5;
+        padding: 10px 15px;
+        border-radius: 15px;
+        font-family:  "syne", sans-serif;
+        cursor: pointer;
+        font-weight:600;
+    }
+    .call-to-action-2{
+        width: fit-content;
+        background: #1f252e;
+        outline:1px solid #00ADB5;
+        padding: 10px 15px;
+        border-radius: 15px;
+        font-family:  "syne", sans-serif;
+        cursor: pointer;
+        font-weight:600;
+    }
+
+    .home-about-me{
+        display: flex;
+        gap: 20px;
+
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .faceshot{
+        height: 200px;
+        width: 100px;
+        object-fit: cover;
+        object-position: 50% 5%;
+        border-radius: 20px;
+    }
+
+    .know-about-me-more{
+        font-family:  "syne", sans-serif;
+    }
+
+    .get-to-know-me{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 30px;
+    }
+
+    .personal-statement{
+        line-height: 25px;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .home-projects{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .home-project-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .home-projects-title{
+        font-family:  "syne", sans-serif;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .projects-bucker{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .single-project{
+        width: 40%;
+        outline: 0.5px solid #00acb565;
+        padding: 10px;
+        border-radius: 15px;
+        transition: transform .2s;
+    }
+
+    .single-project:hover{
+        transform: scale(1.03);
+    }
+
+    .project-image{
+        border-radius: 20px;
+        width: 100%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .project-title{
+        font-weight: 600;
+        font-family:  "syne", sans-serif;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .project-stack{
+        font-family:  "syne", sans-serif;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .project-stack-title{
+        font-weight: bold;
+    }
+
+    .testimonial{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .testimonial-title{
+        font-family:  "syne", sans-serif;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-text{
+        width: 80%;
+        margin-bottom: 20px;
+        text-align: justify;
+        border-right: 7px solid #00ADB5;
+        padding-right: 15px;
+    }
+
+    .testimonial-writer{
+        font-family:  "syne", sans-serif;
+        font-weight: bolder;
+    }
+
+    .home-contacts{
+        background: #161d26;
+        width: 100%;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .get-in-touch-title{
+        font-family:  "syne", sans-serif;
+        color: #08e0ec;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .email{
+        text-align: center;
+        font-family:  "syne", sans-serif;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        text-decoration: underline;
+        margin-bottom: 30px;
+    }
+
+    .contact-items{
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .horizontal-rule{
+        text-align: center;
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        border: 0.1px solid #ffffff50;
+    }
 }
 
-.know-about-me-more{
-    font-family:  "syne", sans-serif;
-}
 
-.get-to-know-me{
+/* break point */
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+    .nav{
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 50px;
-}
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    min-width: 320px;
+    background: #1f252e;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1000;
+    }
 
-.personal-statement{
-    line-height: 25px;
-    text-align: justify;
-    width: 85%;
-}
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    .nav-logo{
+        margin-bottom: 5px;
+        height: 30px;
+        width: 50px;
+    }
+    .nav-bar-item{
+        padding: 5px;
+        transition: transform .2s;
+        font-family: "syne", sans-serif;
+        font-size:x-small;
+    }
 
-.home-projects{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
+    .nav-bar-item:hover{
+        border-bottom:1px solid #00acb5fc;
+        cursor: pointer;
+    }
 
-.home-project-head{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
+    .hero{
+        min-height: 400px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 50px;
+        font-size: 11px;
+        text-align: center;
+    }
 
-.home-projects-title{
-    font-family:  "syne", sans-serif;
-    text-align: center;
-}
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family:  "syne", sans-serif;
+        gap: 10px;
+        font-size:xx-small;
+        justify-content: center;
+        align-items: cen;
+    }
 
-.projects-bucker{
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    .call-to-action{
+        width: fit-content;
+        background:#00ADB5;
+        padding: 10px 15px;
+        border-radius: 15px;
+        font-family:  "syne", sans-serif;
+        cursor: pointer;
+        font-weight:600;
+    }
+    .call-to-action-2{
+        width: fit-content;
+        background: #1f252e;
+        outline:1px solid #00ADB5;
+        padding: 10px 15px;
+        border-radius: 15px;
+        font-family:  "syne", sans-serif;
+        cursor: pointer;
+        font-weight:600;
+    }
 
-.single-project{
-    width: 40%;
-    outline: 0.5px solid #00acb565;
-    padding: 10px;
-    border-radius: 15px;
-    transition: transform .2s;
-}
+    .home-about-me{
+        display: flex;
+        flex-direction:column-reverse;
+        gap: 20px;
 
-.single-project:hover{
-    transform: scale(1.03);
-}
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .faceshot{
+        height: 200px;
+        width: 300px;
+        object-fit: cover;
+        object-position: 50% 5%;
+        border-radius: 20px;
+    }
 
-.project-image{
-    border-radius: 20px;
-    width: 100%;
-    height: 350px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    .know-about-me-more{
+        font-family:  "syne", sans-serif;
+    }
 
-.project-title{
-    font-weight: 600;
-    font-family:  "syne", sans-serif;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+    .get-to-know-me{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 30px;
+    }
 
-.project-stack{
-    font-family:  "syne", sans-serif;
-    font-size: 15px;
-    margin-bottom: 15px;
-}
+    .personal-statement{
+        line-height: 25px;
+        text-align: justify;
+        width: 90%;
+    }
 
-.project-stack-title{
-    font-weight: bold;
-}
+    .home-projects{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
 
-.testimonial{
-    max-width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
+    .home-project-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 
-.testimonial-title{
-    font-family:  "syne", sans-serif;
-    margin-top: 70px;
-    margin-bottom: 40px;
-}
+    .home-projects-title{
+        font-family:  "syne", sans-serif;
+        text-align: center;
+        font-size: 24px;
+    }
 
-.testimonial-text{
-    width: 80%;
-    margin-bottom: 20px;
-    text-align: justify;
-    border-right: 7px solid #00ADB5;
-    padding-right: 15px;
-}
+    .projects-bucker{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.testimonial-writer{
-    font-family:  "syne", sans-serif;
-    font-weight: bolder;
-}
+    .single-project{
+        width: 90%;
+        outline: 0.5px solid #00acb565;
+        padding: 10px;
+        border-radius: 15px;
+        transition: transform .2s;
+    }
 
-.home-contacts{
-    background: #161d26;
-    width: 112%;
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-.get-in-touch-title{
-    font-family:  "syne", sans-serif;
-    color: #08e0ec;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 40px;
-}
+    .single-project:hover{
+        transform: scale(1.03);
+    }
 
-.email{
-    text-align: center;
-    font-family:  "syne", sans-serif;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    text-decoration: underline;
-    margin-bottom: 30px;
-}
+    .project-image{
+        border-radius: 20px;
+        width: 100%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-.contact-items{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+    .project-title{
+        font-weight: 600;
+        font-family:  "syne", sans-serif;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .project-stack{
+        font-family:  "syne", sans-serif;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .project-stack-title{
+        font-weight: bold;
+    }
+
+    .testimonial{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .testimonial-title{
+        font-family:  "syne", sans-serif;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-text{
+        width: 95%;
+        margin-bottom: 20px;
+        text-align: justify;
+        border-right: 7px solid #00ADB5;
+        padding-right: 15px;
+    }
+
+    .testimonial-writer{
+        font-family:  "syne", sans-serif;
+        font-weight: bolder;
+    }
+
+    .home-contacts{
+        background: #161d26;
+        width: 100%;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .get-in-touch-title{
+        font-family:  "syne", sans-serif;
+        color: #08e0ec;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .email{
+        text-align: center;
+        font-family:  "syne", sans-serif;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        text-decoration: underline;
+        margin-bottom: 30px;
+        font-size:x-large;
+    }
+
+    .contact-items{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .horizontal-rule{
+        text-align: center;
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        border: 0.1px solid #ffffff50;
+    }
 }
