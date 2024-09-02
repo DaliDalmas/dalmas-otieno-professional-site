@@ -3,7 +3,7 @@ const data = [
     {
         "name": "automation system monitoring",
         "stack": "prometheus, grafana, fastapi, apache-airflow",
-        "github": "https://github.com/DaliDalmas/gdpr-enforcement-analytics",
+        "github": "https://github.com/DaliDalmas/prometheus-grafana-fastapi-apache-airflow",
         "image": require('../images/grafana.jpg')
     },
     {
