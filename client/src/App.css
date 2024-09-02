@@ -1,3 +1,6 @@
+.project-stack-title>a{
+    color: white;
+}
 
 @media only screen and (min-width: 920px) {
     .nav{
@@ -57,15 +60,6 @@
 
     .call-to-action{
         width: fit-content;
-        background:#00ADB5;
-        padding: 10px 15px;
-        border-radius: 15px;
-        font-family:  "syne", sans-serif;
-        cursor: pointer;
-        font-weight:600;
-    }
-    .call-to-action-2{
-        width: fit-content;
         background: #1f252e;
         outline:1px solid #00ADB5;
         padding: 10px 15px;
@@ -73,8 +67,12 @@
         font-family:  "syne", sans-serif;
         cursor: pointer;
         font-weight:600;
+        transition: transform .2s;
     }
-
+    .call-to-action:hover{
+        transform: scale(1.03);
+        cursor: pointer;
+    }
     .home-about-me{
         display: flex;
         gap: 20px;

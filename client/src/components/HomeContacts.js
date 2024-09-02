@@ -7,16 +7,16 @@ export default function HomeContacts(){
             <div className="contact-items">
                 <img src={logo} alt="logo" width="100px" height="50px"/>
                 <div>
-                    <p>streets</p>
-                    <p>phone1</p>
+                    <p>socials</p>
+                    <p>socials</p>
                 </div>
                 <div>
-                    <p>Phone</p>
+                    <p>socials</p>
                     <p>socials</p>
                 </div>
             </div>
             <hr className="horizontal-rule"/>
-            <div>@2024. dalicodes. All rights reserved</div>
+            <div>&copy;2024 dalicodes. All rights reserved</div>
         </div>
     )
 }
