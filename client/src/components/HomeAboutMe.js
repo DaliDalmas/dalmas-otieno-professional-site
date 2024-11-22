@@ -1,5 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 import faceshot from '../images/dalmas_face_shot.jpeg'
 function HomeAboutMe(){
+
+    const navigate = useNavigate()
+    const goToPage = () =>{
+        navigate("/me")
+    }
     return (
         <div className="home-about-me">
             <div className="get-to-know-me">
@@ -12,7 +19,8 @@ function HomeAboutMe(){
                     With a strong foundation in data architectural design, 
                     I excel at crafting robust solutions that empower organizations
                      to harness the full potential of their data. </div>
-                <div className="call-to-action">DISCOVER ME MORE</div>
+                <div className="call-to-action" onClick={goToPage}>DISCOVER ME MORE</div>
+ 
             </div>
             <img className="faceshot" src={faceshot} alt="first"/>
         </div>

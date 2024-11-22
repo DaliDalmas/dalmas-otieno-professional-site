@@ -1,23 +1,22 @@
+import React from "react";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
 import './App.css';
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import HomeAboutMe from './components/HomeAboutMe';
-import HomeProject from './components/HomeProject';
-import Testimonial from './components/Testimonial';
-import HomeContacts from './components/HomeContacts';
+import Home from "./pages/Home";
+import Me from "./pages/Me";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
     <div className="App">
-      <div className='app-components'>
-        <Nav />
-        <Hero />
-        <HomeAboutMe />
-        <HomeProject />
-        <Testimonial />
-        <HomeContacts />
-      </div>
-
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/me" element={<Me />}/>
+          <Route path="/projects" element={<Projects />}/>
+        </Routes>
+      </Router>
+      
     </div>
   );
 }
