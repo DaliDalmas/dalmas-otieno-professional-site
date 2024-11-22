@@ -12,7 +12,7 @@ export default function HomeProject(){
     return (
         <div className="home-projects">
             <div className="home-project-head">
-                <h1 className="home-projects-title">My Projects Highlight</h1>
+                <h1 className="home-projects-title" id="my-works">My Projects Highlight</h1>
                 <div className="call-to-action" onClick={goToPage}>EXPLORE MORE</div>
             </div>
             <div className="projects-bucker">

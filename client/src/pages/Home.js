@@ -8,7 +8,6 @@ import HomeContacts from '../components/HomeContacts';
 function Home(props){
     return(
         <div className='app-components'>
-            something home
             <Nav />
             <Hero />
             <HomeAboutMe />

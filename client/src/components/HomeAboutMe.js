@@ -8,10 +8,10 @@ function HomeAboutMe(){
         navigate("/me")
     }
     return (
-        <div className="home-about-me">
+        <div className="home-about-me" id="about-me">
             <div className="get-to-know-me">
                 <div className="get-to-know-me-title">
-                    <h2 className='know-about-me-more'>Let's get to know</h2>
+                    <h2 className='know-about-me-more' >Let's get to know</h2>
                     <h2 className='know-about-me-more'>about me closer</h2>
                 </div>
                 <div className="personal-statement">Hi, I'm Dalmas, a data engineer and data scientist driven by a passion for
