@@ -1,7 +1,7 @@
 function Me(){
     return (
         <div>
-        This is another page
+        Coming soon
         </div>
     )
 

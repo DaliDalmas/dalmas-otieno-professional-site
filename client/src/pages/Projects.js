@@ -1,7 +1,7 @@
 function Projects(){
     return(
         <>
-        This is a projects page
+        Coming soon
         </>
     )
 
